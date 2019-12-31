@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather Dashborad</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css">
+
+<style>
+
+</style>    
+
+</head>
+
+<body>
+    <!-- This is going to contain the search input & search button  -->
+    <header>
+         <div class="title"><h1 class="display-4">Weather Dashborad</h1></div>   
+    </header> 
+
+    
+    <div class="container sideBar">
+    <div id="searchContaniner">
+        <input class="searchControl" type="text" placeholder="City Name or Zipcode" id="searchInput">
+        <button class="searchControl" id="searchBtn">Search</button>
+    </div>
+    <!-- Container that hold the weather information  -->
+    <div id="weatherContainer">
+        <div id="weatherDescription">
+            <h1 id="cityHeader"></h1>
+            
+            <div id="weatherMain">
+                <div id="temperature"></div>
+                <div id="weatherDescriptionHeader"></div>
+                <div><img id="documentIconImg"></div>
+            </div>
+            <hr>
+            <div id="windSpeed" class="bottomDetails"></div>
+            <div id="humidity" class="bottomDetails"></div> 
+        </div>
+    </div>
+</div> 
+<script src="assets/java.js"></script>
+<footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+        <div class="container text-center">
+          <small>Copyright &copy; Alejandra Ramos</small>
+        </div>
+</footer>
+</body>
+</html> 
